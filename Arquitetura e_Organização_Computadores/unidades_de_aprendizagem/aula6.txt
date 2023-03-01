@@ -1,0 +1,11 @@
+Titulo: Funcionamento e Soluções (Pipeline)
+
+    * Descrever o conceito de pipeline:
+        RESPOSTA: É uma técnica utilizada pelos processadores para otimizar o tempo de processamento dividindo uma tarefa em vários pedaços.
+
+    * Identificar as características do pipeline de instruções:
+        RESPOSTA:
+    
+    * Reconhecer os tipos de pipeline:
+
+        RESPOSTA:  Pipeline de instruções, Pipelines aritméticos,  Pipelines de controle de fluxo de dados, Síncrono, Pipeline de funcionalidade,  Pipeline de estrutura

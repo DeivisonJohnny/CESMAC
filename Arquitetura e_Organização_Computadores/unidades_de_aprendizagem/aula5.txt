@@ -1,0 +1,14 @@
+Titulo: Representação de dados e aritmética de computadores
+
+    Ao final desta Unidade de Aprendizagem, você deve apresentar os seguintes aprendizados: 
+
+        * Identificar como os computadores representam os dados internamente.
+
+            RESPOSTA: Os computadores representa os dados tanto os de entrada como os de saídas, por um sistema binário. Representados internamente por zeros(0) e Uns(1).
+
+        * Converter números do sistema de numeração decimal para o sistema de  numeração binário, sejam eles positivos ou negativos.
+
+        Realizar operações aritméticas básicas no sistema de numeração binário.
+
+
+

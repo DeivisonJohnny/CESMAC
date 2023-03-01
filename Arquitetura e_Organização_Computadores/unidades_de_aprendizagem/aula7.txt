@@ -1,0 +1,12 @@
+Tecnologia e Hierarquia de Memórias
+
+    Definir tecnologias e hierarquia de memória:
+        RESPOSTA: Primeiro é os registrores, depois memória de CACHE, depois a memória principal que é MEMÓRIA RAM e por último as memórias secundarias que são os HD, SSDs.
+        (LIVRO: as memórias são organizadas conforme a sua proximidade com o processador, nesta ordem: registradores, cache, memória principal e memória secundária)
+
+    Discutir o conceito de localidade de memórias:
+        RESPOSTA:
+
+    Definir a diferença de memória cache e memória virtual:
+        RESPOSTA: A memória CACHE é uma fisíca mais próxima do processador em quanto a memória virtual é uma memória criada de uma parte da memória secundaria(SSDs e HDs), simulando uma espécie de memória principal(Memória RAM).
+        

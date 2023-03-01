@@ -1,0 +1,22 @@
+1° Ponto - responder a 1º experiência de aprendizagem -> falando sobre os assuntos relacionados a organização e arquitetura de computadores.
+
+        Resposta 1º EA: responder ->
+        
+             Reconhecer o processamento de dados e sistemas de computação.
+                R: O processamento de dados pode ser divididos em três partes, sendo: a primeira entrada dos dados(inputs) que pode ser reconhecida por informações(dados) inseridos como, nome, sobrenome, idade, cep, cpf, localização e entre outros.
+                A segunda parte: o processamento das entradas que nada mais é a reorganização desses dados inseridos.
+                A terceira parte: A saída desses dados, ja organizados pelo processamento(segunda parte).
+
+
+
+            Identificar a evolução dos computadores (histórico).
+                R: PENDENTE
+            Descrever a diferença entre hardware e software.
+                R: PENDENTE
+
+
+
+
+
+ANOTAÇÕES:
+    Se apresentar no ponto de encontro
