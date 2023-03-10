@@ -1,0 +1,7 @@
+História dos Sistemas Operacionais
+
+    * Identificar os fatos históricos do surgimento dos sistemas Operacionais
+
+    * Apontar as caractéristicas básicas dos sistemas operacionais e sua relação com os hardwares a que estão vinculados.
+
+    * Descrever como foi a evolução dos sistemas operacionais até os dias atuais.
