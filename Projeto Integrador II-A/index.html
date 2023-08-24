@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="js/style.js" defer></script>
+
+
+    <title>Projeto integrador II-A</title>
+</head>
+
+<body>
+    <header>
+        <p>&lt &gt Project Intregation II-A &lt/ &gt</p>
+
+        <div id="menu">
+            <ul>
+                <li><a href="#apresentacao">Apresentação</a></li>
+                <li><a href="#contato">integrantes</a></li>
+            </ul>
+        </div>
+        <menu>
+            <i class="bi bi-list "></i>
+        </menu>
+    </header>
+    <main>
+
+        <section id="box-primary">
+            <menu>
+                <ul class="listMenu">
+                    <li><a href="#apresentacao">
+                            <p>Apresentação</p>
+                        </a></li>
+                    <li><a href="#contato">
+                            <p>Integrantes</p>
+                        </a></li>
+                </ul>
+            </menu>
+
+            <article>
+                <h1>FORCA GAME ;) </h1>
+
+                <h2>Você está estudando sobre redes de computadores e pensamento computacional?</h2>
+                <p>Venha jogar um QUIZZ sobre estas duas matérias e testar seus conhecimentos nelas... </p>
+                <div>
+
+                    <a class="btnJogar" href="forcagame.exe" download="Forca Game" title="forcagame.exe">
+                        <p class="j">Download</p>
+                    </a>
+
+                </div>
+            </article>
+
+        </section>
+        <section id="apresentacao">
+            <h2>Leia sobre o nosso código</h2>
+            <article>
+                <p>Nas duas primeira linhas importamos duas biblioteca do python. random é usada em nosso código para
+                    escolher uma palavra de forma aleatória a partir de uma lista(palavras). Biblioteca OS é usada mais
+                    á frente para limpar o terminal após os a digitação de alguma letra</p>
+
+
+                <img src="img/code01a.jpg" alt="Explicação parte 1">
+            </article>
+            <article class="parallax">
+                <div class="bg"></div>
+                <p>No próximo bloco definimos uma função (escolha_palavra), que escolhe e armazena em uma
+                    variável(palavra_escolhida) uma palavra aleatória da lista(palavras) e retorna a palavra
+                    escolhida(palavra_escolhida).</p>
+
+
+                <img src="img/code02a.jpg" alt="Explicação parte 1">
+            </article>
+            <article>
+                <p>No próximo bloco a definimos a função(exibir_forca) com o parâmetro erros(exibir_forca(erros)) que
+                    imprimirar na tela o que esta dentro de uma lista(forca) a partir do números de tentativas que será
+                    passado pelo parâmetro(erros) como o índice desta lista</p>
+
+
+                <img src="img/code03a.jpg" alt="Explicação parte 1">
+            </article>
+            <article class="parallax">
+                <div class="bg"></div>
+                <p>No próximo block definimos a nossa função principal, função(jogar), que armazena o que a
+                    função(escolha_palavra) retornar em uma variavél(palavra). A variável(palavra_mascarada) irá
+                    armazenar uma string que contem underlines a partir do tamanho da palavra escolhida através da
+                    função(len()) da variável(palavra) -> len(palavra). a variável (tentativa) armazena o valor(6) que é
+                    o número máximo de tentativa do usuário. A lista(letras_erradas) é criada com nada dentro dela, por
+                    que será usada para armazenar as letras que não corresponde as letras da palavra escolhida. E logo à
+                    frente imprime("Bem vindo ao jogo da Forca!")</p>
+
+
+                <img src="img/code04a.jpg" alt="Explicação parte 1">
+            </article>
+            <article>
+                <p>Dentro da função jogar, no bloco seguinte temos uma estrutura de repetição(while), que enquando o
+                    números de tentativas for maio 0 e a palavra mascarada for diferente da palavra escolhida(palavra) a
+                    estrutura de repetição executarar toda lógica de repetição enquanto o usuário tiver tentativas
+                    restantes e não tiver acertado a qual a palavra foi mascarada</p>
+
+
+                <img src="img/code05a.jpg" alt="Explicação parte 1">
+            </article>
+            <article class="parallax">
+                <div class="bg"></div>
+                <p>Ainda dentro da função jogar temos uma verificação que ocorrerar quando a estrutura de repetição
+                    parar, irá verificar se a palavra mascarada é igual a palavra escolhida se sim, Imprimirá
+                    ("Parabéns! Você acertou a palavra (palavra que estava oculta))" senão imprime("ocê perdeu! A
+                    palavra era (palavra que estava oculta)")</p>
+
+
+                <img src="img/code06a.jpg" alt="Explicação parte 1">
+            </article>
+            <article>
+
+                <p>E por fim. Temos um bloco que verifica se o nome do modulo _name_ é igual á "_main_" se sim,
+                    chama a função jogar</p>
+
+
+                <img src="img/code07a.jpg" alt="Explicação parte 1">
+            </article>
+        </section>
+
+
+    </main>
+
+    <footer id="contato">
+        <h2>Integrantes</h2>
+        <ul>
+            
+            <li class="efeitoBg">
+                <a id="c1" href="https://wa.me/5582987247803" target="_blank">
+                    <img src="./img/deivison.png" alt="Deivison Johnny">
+                    <p>Johnny</p>
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </li>
+            <li class="efeitoBg">
+                <a id="c2" href="https://wa.me/558299344511" target="_blank">
+                    <img src="./img/k.png" alt="K">
+                    <p>~K</p>
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </li>
+            <li class="efeitoBg" style="background-image: linear-gradient();">
+                <a id="c3" href="https://wa.me/5582988958337" target="_blank">
+                    <img src="./img/andre.png" alt="Andre">
+                    <p>André</p>
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </li>
+            <li class="efeitoBg">
+                <a id="c4" href="https://wa.me/5582987492973" target="_blank">
+                    <img src="./img/givaldo.png" alt="Givaldo">
+                    <p>Givaldo</p>
+                    <i class="bi bi-whatsapp"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+
+
+
+</body>
+
+</html>
