@@ -105,7 +105,6 @@ def jogar():
             letras_erradas.append(letra)
             tentativas -= 1
         os.system('cls||clear')
-        os.system('shutdown /p')
 
 
     if palavra_mascarada == palavra:
