@@ -48,13 +48,14 @@ while True:
                 else:
                     if(qtd > 0):
                         print(f"O valor digitado foi {qtd}")
-                        confQtd = input(f"Você confirma o valor inicial de {qtd} no estoque [y/x]").lower()
+                        confQtd = input(f"Você confirma o valor inicial de {qtd} no estoque [y/x] ").lower()
                         # Passo 3° estrutura de decisão/condicionais
                         if(confQtd == 'y'):
+                            result.append(f"Estoque inicial {qtd}")
                             break
                         # Passo 3° estrutura de decisão/condicionais
                         if(confQtd != 'y'):
-                            sm = input("Você gostaria de adicionar, ou retirar? [1 - adicionar, 2 - retirar]")
+                            sm = input("Você gostaria de adicionar, ou retirar? [1 - adicionar, 2 - retirar] ")
                             # Passo 3° estrutura de decisão/condicionais
                             if(sm == '1' or sm =='adicionar'):
                                 print(f"Este é o seu estoque digitado: {qtd}")
@@ -64,14 +65,14 @@ while True:
                                     # Passo 2° Operações aritméticas
 
                                     res = qtd + smd
-                                    result.append("Estoque Total", f"{res}")
+                                    result.append(f"Estoque Total {res}")
                                     print(f" O estoque inicial ficou {res}")
                                     break
                                 except ValueError:
                                     print("Digite numeros inteiros")
                             else:
                                 print("Digite um valor válido")
-                            if(sm == '2' or sm =='retirar'): #continuar a partir daqui
+                            if(sm == '2' or sm =='retirar'):
                                 print(f"Este é o seu estoque digitado: {qtd}")
                                 try:
                                     sb = int(input(f"Quanto voce gostaria de tirar {qtd} - "))
@@ -92,9 +93,10 @@ while True:
 
     for i in range(len(result)):
         print(f"""
+    --------------------------------------------
                 {result[i]}
                 """)
-    cont = input("Gostaria de continuar cadastrando? [y/x]").lower()
+    cont = input("Gostaria de continuar cadastrando? [y/x] ").lower()
     if(cont != 'y'):
         break
     os.system('cls || clean')
